@@ -2,7 +2,7 @@ REA npm dependency inventory
 Prepared from the root package-lock.json; refresh this inventory when locked dependencies change.
 License identifiers are upstream lockfile declarations, not a legal assessment.
 Runtime includes transitive and optional platform packages; development includes build, test and website tooling.
-Locked package entries: 966; runtime: 175.
+Locked package entries: 968; runtime: 175.
 Full runtime copyright/license/NOTICE texts: npm-runtime-notices.txt.
 
 @algolia/abtesting@1.25.0 | development | MIT
@@ -395,16 +395,16 @@ unist-util-visit-parents@3.1.1 | development | MIT
   Package: https://www.npmjs.com/package/@docsearch/react/v/3.8.2
   Archive: https://registry.npmjs.org/@docsearch/react/-/react-3.8.2.tgz
   Integrity: sha512-xCRrJQlTt8N9GU0DG4ptwHRkfnSnD/YpdeaXe02iKfqs97TkZJv60yE+1eq/tjPcVnTW8dP5qLP7itifFVV5eg==
-@electron/asar@4.2.0 | development | MIT
+@electron/asar@4.3.2 | development | MIT
   Lockfile path: node_modules/@electron/asar
-  Package: https://www.npmjs.com/package/@electron/asar/v/4.2.0
-  Archive: https://registry.npmjs.org/@electron/asar/-/asar-4.2.0.tgz
-  Integrity: sha512-npW1NW5yy8EB9XY/vEw9sUdgmq0sJEhmSBb6bqyFOAw1CSkrhvAvO6QWlW8CdIMo8VN1lkdF345l/MeW0LrY0Q==
-commander@13.1.0 | development | MIT
-  Lockfile path: node_modules/@electron/asar/node_modules/commander
-  Package: https://www.npmjs.com/package/commander/v/13.1.0
-  Archive: https://registry.npmjs.org/commander/-/commander-13.1.0.tgz
-  Integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==
+  Package: https://www.npmjs.com/package/@electron/asar/v/4.3.2
+  Archive: https://registry.npmjs.org/@electron/asar/-/asar-4.3.2.tgz
+  Integrity: sha512-2nwyO3OgmLgkYQe6TzB8FmyrBKGgmXzSO51ozoG2BpHOLPTPdQpBt/zD0MdPkhQr4UqVgw3u09y4uYxgZKhmtg==
+minimatch@11.0.8 | development | BlueOak-1.0.0
+  Lockfile path: node_modules/@electron/asar/node_modules/minimatch
+  Package: https://www.npmjs.com/package/minimatch/v/11.0.8
+  Archive: https://registry.npmjs.org/minimatch/-/minimatch-11.0.8.tgz
+  Integrity: sha512-nFQuYSTVrGvysVBps5Ih+0BdnYFN/Cj3C816r6+p7yK+FHrVLGE4O4N9AFwykrlNlvM2HYt+Rad1Uiro6h88Ig==
 @emnapi/core@1.11.2 | development, optional | MIT
   Lockfile path: node_modules/@emnapi/core
   Package: https://www.npmjs.com/package/@emnapi/core/v/1.11.2
@@ -560,6 +560,11 @@ commander@13.1.0 | development | MIT
   Package: https://www.npmjs.com/package/@google-automations/git-file-utils/v/3.2.1
   Archive: https://registry.npmjs.org/@google-automations/git-file-utils/-/git-file-utils-3.2.1.tgz
   Integrity: sha512-LYOjAnGu/xtEkYYh6W3/1RmeK9HB/fV+xMe7nHc+WiDYrnxAJWBfcyUucoJtYS8XAhVUzNWrQvYDPRbxe67DNQ==
+minimatch@11.0.8 | development | BlueOak-1.0.0
+  Lockfile path: node_modules/@google-automations/git-file-utils/node_modules/minimatch
+  Package: https://www.npmjs.com/package/minimatch/v/11.0.8
+  Archive: https://registry.npmjs.org/minimatch/-/minimatch-11.0.8.tgz
+  Integrity: sha512-nFQuYSTVrGvysVBps5Ih+0BdnYFN/Cj3C816r6+p7yK+FHrVLGE4O4N9AFwykrlNlvM2HYt+Rad1Uiro6h88Ig==
 @iarna/toml@3.0.0 | development | ISC
   Lockfile path: node_modules/@iarna/toml
   Package: https://www.npmjs.com/package/@iarna/toml/v/3.0.0
@@ -1505,6 +1510,11 @@ commander@13.1.0 | development | MIT
   Package: https://www.npmjs.com/package/@stryker-mutator/core/v/10.0.0
   Archive: https://registry.npmjs.org/@stryker-mutator/core/-/core-10.0.0.tgz
   Integrity: sha512-ZvMsRyaXQQ5e6Thcid9pkuODv6Fn9E3nrBQJUap+hcJuGJ4unm26afo3m6YKSjn8kinyxJ/3TXf0cTWRDaTxVw==
+minimatch@11.0.8 | development | BlueOak-1.0.0
+  Lockfile path: node_modules/@stryker-mutator/core/node_modules/minimatch
+  Package: https://www.npmjs.com/package/minimatch/v/11.0.8
+  Archive: https://registry.npmjs.org/minimatch/-/minimatch-11.0.8.tgz
+  Integrity: sha512-nFQuYSTVrGvysVBps5Ih+0BdnYFN/Cj3C816r6+p7yK+FHrVLGE4O4N9AFwykrlNlvM2HYt+Rad1Uiro6h88Ig==
 @stryker-mutator/instrumenter@10.0.0 | development | Apache-2.0
   Lockfile path: node_modules/@stryker-mutator/instrumenter
   Package: https://www.npmjs.com/package/@stryker-mutator/instrumenter/v/10.0.0
@@ -3395,7 +3405,7 @@ minimalistic-assert@1.0.1 | development | ISC
   Package: https://www.npmjs.com/package/minimalistic-assert/v/1.0.1
   Archive: https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz
   Integrity: sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
-minimatch@10.2.5 | runtime | BlueOak-1.0.0
+minimatch@10.2.5 | runtime, optional | BlueOak-1.0.0
   Lockfile path: node_modules/minimatch
   Package: https://www.npmjs.com/package/minimatch/v/10.2.5
   Archive: https://registry.npmjs.org/minimatch/-/minimatch-10.2.5.tgz
