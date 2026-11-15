@@ -411,8 +411,11 @@
     "zod": "4.6.6"
   },
   "overrides": {
-    "@electron/asar": {
-      "glob": "14.0.4"
+    "@google-automations/git-file-utils": {
+      "minimatch": "11.0.8"
+    },
+    "@stryker-mutator/core": {
+      "minimatch": "11.0.8"
     },
     "typed-rest-client": {
       "qs": "6.16.1"
@@ -422,7 +425,7 @@
     }
   },
   "devDependencies": {
-    "@electron/asar": "4.2.0",
+    "@electron/asar": "4.3.2",
     "@fast-check/vitest": "0.5.0",
     "@stryker-mutator/core": "10.0.0",
     "@stryker-mutator/typescript-checker": "10.0.0",
